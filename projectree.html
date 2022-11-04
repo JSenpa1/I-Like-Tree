@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+    <style>
+a {
+    height: 100;
+    width: 100;
+}
+h1 {
+    text-align:center;
+    position:absolute;
+    top:35%;
+    left:28%;
+    color:white;
+    font-family: Comic Sans MS;
+}
+h2 {
+    text-align:right;
+    position:absolute;
+    top:110%;
+    left:51%;
+    color:white;
+    font-family: Comic Sans MS;
+    font-size:5px;
+}
+form {
+    text-align: center;
+    color: white;
+    position:absolute;
+    top:580%;
+    left:31.5%;
+    background:rgba(0,0,0,0.4);
+    width:450px;
+    margin:auto;
+    padding:10px;
+    margin:auto;
+    margin-top:5%;
+    font-family: Comic Sans MS;
+}
+.parallax {
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("forest.jpg");
+    min-height:700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("forest2.jpg");
+    min-height:700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3 {
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("forest3.jpg");
+    min-height:700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax4 {
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("forest4.jpg");
+    min-height:700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+     margin: 0;
+     }
+     
+.ml1 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml1 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml1 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml1 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  transform-origin: 0 0;
+}
+
+.ml1 .line1 { top: 0; }
+.ml1 .line2 { bottom: 0; }
+
+.ml12 {
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.ml12 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml12 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+
+.ml12 .line1 { 
+  top: 0; 
+  left: 0;
+}
+
+.ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+.pohong {
+    position:absolute;
+    top:130%;
+    left:15%;
+    height:200px;
+    width:auto;
+}
+p2 {
+    font-size:20px;
+    font-family:arial;
+    color:white;
+    text-align:center;
+    position:absolute;
+    top:140%;
+    left:40%;
+}
+.ml3 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml3 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml3 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml3 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  transform-origin: 0 0;
+}
+
+.ml3 .line1 { top: 0; }
+.ml3 .line2 { bottom: 0; }
+
+.ml4 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml4 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml4 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml4 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  transform-origin: 0 0;
+}
+
+.ml4 .line1 { top: 0; }
+.ml4 .line2 { bottom: 0; }
+
+
+
+h3 {
+    color:white;
+    font-family:Comic Sans MS;
+    text-align:center;
+    position:absolute;
+    top:219%;
+    left:37%;
+}
+.teori {
+    position:absolute;
+    left:30%;
+    top:296%;
+}
+h4 {
+    color:white;
+    font-family:Comic Sans MS;
+    text-align:center;
+    position:absolute;
+    top:395%;
+    left:25%;
+}
+.how {
+    position:absolute;
+    top:489%;
+    left:13%;
+}
+.tutorial {
+    color:white;
+    text-align:left;
+    position:absolute;
+    top:503%;
+    left:50%;
+    font-family:Arial;
+    font-size:20px;
+}
+.ml15 {
+  font-weight: 200;
+  font-size: 3.2em;
+}
+
+.ml15 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml15 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+  transform-origin: 100% 100%;
+  bottom: 0;
+}
+
+.ml15 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+h5 {
+    color:white;
+    font-family:Comic Sans MS;
+    text-align:center;
+    position:absolute;
+    top:545%;
+    left:33%;
+}
+    </style>
+<body>
+<div class="parallax">
+    <h1 class="ml1">
+        <span class="text-wrapper">
+          <span class="line line1"></span>
+          <span class="letters">Project Treegonometry</span>
+          <span class="line line2"></span>
+        </span>
+      </h1>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+</div>
+<div style="height:500px;background-color:darkslategrey;">
+    <div class="pohong"><img src="pohon.jpg"></div>
+    <h2 class="ml12">
+        <span class="text-wrapper">
+          <span class="line line1"></span>
+          <span class="letters">Apa itu Project Treegonometry?</span>
+        </span>
+    </h2>
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+      <br>
+      <p2>Project Treegonometry adalah project matematika <br>oleh Siswa kelas 10 Jonathan dalam membuat program untuk menghitung <br>tinggi pohon hanya dengan mengetahui derajat dan juga jarak dari pohon yang diketahui</p2>
+</div>
+<div class="parallax2">
+    <h3 class="ml3">
+        <span class="text-wrapper">
+          <span class="line line1"></span>
+          <span class="letters">Dasar Teori</span>
+          <span class="line line2"></span>
+        </span>
+      </h3>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+      
+</div>
+<div style="height:500px;background-color:darkslategrey;">
+    <div class="teori"><img src="Dteori.jpg" alt="Image" height="400" width="auto"></div>
+</div>
+<div class="parallax3">
+    <h4 class="ml4">
+        <span class="text-wrapper">
+          <span class="line line1"></span>
+          <span class="letters">Cara Menggunakan Program</span>
+          <span class="line line2"></span>
+        </span>
+      </h4>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+</div>
+<div style="height:500px;background-color:darkslategrey;">
+    <div class="how"><img src="cara.jpg"></div>
+    <div class="tutorial">1. Pertama, Masukkan Derajat(Degree) yang diinginkan/diketahui<br>2. Kedua, Masukkan Jarak(Distance), yang diinginkan/diketahui<br>3. Terakhir, Pencet Calculate dan Silahkan melihat hasilnya</div>
+</div>
+<div class="parallax4">
+    <h5 class="ml15">
+        <span class="text-wrapper">
+          <span class="letters">Selamat Mencoba!</span>
+          <span class="line"></span>
+        </span>
+      </h5>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<form>
+    <label>Degree</label>
+    <br>
+    <input type="text" id="deg" /><br>
+    <label>Distance</label>
+    <br>
+    <input type="text" id="num" /><br>
+    <br>
+    <input type="button" value="Calculate" onClick="valueBy()" />
+    <br>
+    <br>
+    <p1>Result:<br>
+    <br>
+    <span id="res"></span>
+    </p1>
+    <br>
+    <br>
+    
+</form>
+</div>
+</body>
+<script type="text/javascript">
+    function valueBy() 
+    {
+        num1 = document.getElementById("deg").value;
+        num2 = document.getElementById("num").value;
+        var y = Math.tan(num1 * Math.PI / 180.0);
+        document.getElementById("res").innerHTML = num2 * y + "m";
+    }
+    var textWrapper = document.querySelector('.ml1 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml1 .letter',
+    scale: [0.3,1],
+    opacity: [0,1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 600,
+    delay: (el, i) => 70 * (i+1)
+  }).add({
+    targets: '.ml1 .line',
+    scaleX: [0,1],
+    opacity: [0.5,1],
+    easing: "easeOutExpo",
+    duration: 700,
+    offset: '-=875',
+    delay: (el, i, l) => 80 * (l - i)
+  }).add({
+    targets: '.ml1',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+  var textWrapper = document.querySelector('.ml12 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml12 .line',
+    scaleY: [0,1],
+    opacity: [0.5,1],
+    easing: "easeOutExpo",
+    duration: 700
+  })
+  .add({
+    targets: '.ml12 .line',
+    translateX: [0, document.querySelector('.ml12 .letters').getBoundingClientRect().width + 10],
+    easing: "easeOutExpo",
+    duration: 700,
+    delay: 100
+  }).add({
+    targets: '.ml12 .letter',
+    opacity: [0,1],
+    easing: "easeOutExpo",
+    duration: 600,
+    offset: '-=775',
+    delay: (el, i) => 34 * (i+1)
+  }).add({
+    targets: '.ml12',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+  var textWrapper = document.querySelector('.ml3 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml3 .letter',
+    scale: [0.3,1],
+    opacity: [0,1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 600,
+    delay: (el, i) => 70 * (i+1)
+  }).add({
+    targets: '.ml3 .line',
+    scaleX: [0,1],
+    opacity: [0.5,1],
+    easing: "easeOutExpo",
+    duration: 700,
+    offset: '-=875',
+    delay: (el, i, l) => 80 * (l - i)
+  }).add({
+    targets: '.ml3',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+  var textWrapper = document.querySelector('.ml4 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml4 .letter',
+    scale: [0.3,1],
+    opacity: [0,1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 600,
+    delay: (el, i) => 70 * (i+1)
+  }).add({
+    targets: '.ml4 .line',
+    scaleX: [0,1],
+    opacity: [0.5,1],
+    easing: "easeOutExpo",
+    duration: 700,
+    offset: '-=875',
+    delay: (el, i, l) => 80 * (l - i)
+  }).add({
+    targets: '.ml4',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+  var textWrapper = document.querySelector('.ml15 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml15 .line',
+    scaleX: [0,1],
+    opacity: [0.5,1],
+    easing: "easeInOutExpo",
+    duration: 900
+  }).add({
+    targets: '.ml15 .letter',
+    opacity: [0,1],
+    translateX: [40,0],
+    translateZ: 0,
+    scaleX: [0.3, 1],
+    easing: "easeOutExpo",
+    duration: 800,
+    offset: '-=600',
+    delay: (el, i) => 150 + 25 * i
+  }).add({
+    targets: '.ml15',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+</script>
+</html>
